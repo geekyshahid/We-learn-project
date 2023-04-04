@@ -1,0 +1,41 @@
+.footer{
+    padding: 1.5rem 2rem;
+    background-color: #8075ff;
+    color: white;
+}
+.top{
+    display: flex;
+    align-items: center;
+    text-align: start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 2rem;
+    
+}
+.top div{
+    display: flex;
+    flex-direction: column;
+}
+.top a{
+    text-decoration: none;
+    padding-bottom: 0.4rem;
+    font-size: 1.1rem;
+    color: #fff;
+}
+.bottom{
+    font-size: 1.3rem;
+    padding: 1rem 0 0.8rem 0;
+    color: #fff ;
+}
+@media screen and (max-width:850px){
+    .footer{
+        background-color: #8075ff;
+        color: white;
+    }
+    .bottom{
+    font-size: 1.3rem;
+    padding: 1rem 0 0.8rem 0;
+    color: #fff ;
+    text-align: center;
+}
+}
